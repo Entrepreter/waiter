@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ResponseBody extends StatelessWidget {
-  final String? body;
+  final dynamic body;
   const ResponseBody({Key? key, this.body}) : super(key: key);
 
   @override
